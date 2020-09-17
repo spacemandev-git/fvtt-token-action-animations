@@ -16,11 +16,7 @@
   "download": "",
   "type": "module",
   "includes": [
-    "./assets/**",
-    "./lang/**",
     "./scripts/**",
-    "./styles/**",
-    "./templates/**",
     "./module.json",
     "./README.md"
   ],
@@ -41,9 +37,7 @@
   "esmodules": [
     "scripts/token-action-animations.js"
   ],
-  "styles": [
-    "styles/token-action-animations.css"
-  ],
+  "styles": [],
   "languages": [
     {
       "lang": "en",
