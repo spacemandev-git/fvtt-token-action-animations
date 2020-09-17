@@ -1,7 +1,7 @@
 {
-  "name": "foundry-typescript-template",
-  "title": "Typescript Template",
-  "description": "", 
+  "name": "token-action-animations",
+  "title": "Token Action Animations",
+  "description": "Temporarily switches token image. Useful for action animations.", 
   "authors": [
     {
       "name": "spacemandev",
@@ -9,14 +9,16 @@
     }
   ],
   "version": "0.0.1",
-  "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.7.2",
+  "minimumCoreVersion": "0.7.2",
+  "compatibleCoreVersion": "0.8.0",
   "url": "",
   "manifest": "",
   "download": "",
   "type": "module",
   "includes": [
-    "dist/"
+    "./scripts/**",
+    "./module.json",
+    "./README.md"
   ],
   "media": [
     {
@@ -33,11 +35,9 @@
     }
   ],
   "esmodules": [
-    "scripts/module.js"
+    "scripts/token-action-animations.js"
   ],
-  "styles": [
-    "styles/module.css"
-  ],
+  "styles": [],
   "languages": [
     {
       "lang": "en",
